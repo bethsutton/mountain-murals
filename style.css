@@ -8,3 +8,25 @@
 .navbar .nav-item.active {
   border-left: #444 3px solid;
 }
+
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-image-1 {
+  background-image: url('./images/bv-right-angle.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-2 {
+  background-image: url('./images/cats-angle.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-3 {
+  background-image: url('./images/skiing-dogs.jpeg');
+  background-size: cover;
+  background-position: center;
+}
