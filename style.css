@@ -1,3 +1,8 @@
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
 .blue-bg {
   background-color: #23304b;
 }
@@ -7,7 +12,11 @@
 }
 
 .light-blue-text {
-  color: #6a89a4;
+  color: #82afd6;
+}
+
+.green-text {
+  color: #28a745;
 }
 
 .navbar-brand {
@@ -75,4 +84,53 @@
   height: 100%;
   z-index: 1;
   background: rgba(0, 0, 0, 0.5);
+}
+
+/* ABOUT PAGE */
+#about-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('./images/biking-lab.jpeg');
+  background-attachment: fixed;
+  background-position: center -400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #ffffff;
+}
+
+.capitalize {
+  text-transform: uppercase;
+}
+
+.about-img {
+  margin-top: -100px;
+  max-width: 450px;
+}
+
+/* QUOTES PAGE */
+#quotes-heading {
+  position: relative;
+  min-height: 350px;
+  background: url('./images/cats-entrance.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #ffffff;
+}
+
+.quotes-heading-text-container {
+  height: 250px;
+}
+
+/* FAQ */
+.faq-question-text {
+  color: #23304b;
+}
+
+.faq-question-text:hover {
+  text-decoration: none;
+  color: #28a745;
 }

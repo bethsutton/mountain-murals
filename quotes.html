@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neucha&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Mountain Murals</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm navbar-dark blue-bg py-3">
+      <div class="container">
+        <a href="" class="navbar-brand">Mountain Murals</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item active">
+              <a href="quotes.html" class="nav-link">Quotes</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADING SECTION -->
+    <section id="quotes-heading" class="p-5">
+      <div class="dark-overlay">
+        <div class="container p-5">
+          <div class="row quotes-heading-text-container my-auto">
+            <div class="col my-auto">
+              <h1>Let's get started on a custom mural!</h1>
+              <a href="#" class="btn btn-success btn-lg mt-4">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUOTES SECTION -->
+    <section id="quotes" class="py-5">
+      <div class="container">
+        <div class="row">
+          <!-- STEP ONE -->
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-header blue-bg text-white">
+                <i class="fas fa-check-circle fa-3x mb-2 light-blue-text"></i>
+                <h3>Contact</h3>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title"></h4>
+                <p>
+                  The first step is to
+                  <a href="contact.html" class="green-text">contact us</a>.
+                  We'll get started talking about your design ideas and
+                  requirements.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- STEP TWO -->
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-header blue-bg text-white">
+                <i class="fas fa-check-circle fa-3x mb-2 light-blue-text"></i>
+                <h3>Design</h3>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title"></h4>
+                <p>
+                  After we've talked about your ideas and seen your space, we
+                  will send you a mural design and the details for your project.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- STEP THREE -->
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-header blue-bg text-white">
+                <i class="fas fa-check-circle fa-3x mb-2 light-blue-text"></i>
+                <h3>Paint</h3>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title"></h4>
+                <p>
+                  Once you have approved your mural design, we will coordinate
+                  with you and schedule our painting days.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="p-5 blue-bg text-white">
+      <div class="container">
+        <h1 class="text-center">Frequently Asked Questions</h1>
+        <hr />
+        <div class="row">
+          <div class="col-md-6">
+            <div id="accordion">
+              <!-- CARD ONE -->
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0 my-1">
+                    <a
+                      href="#collapseOne"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="faq-question-text"
+                    >
+                      <i class="fas fa-plus blue-text mx-2"></i>
+                      How long does a mural take?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse">
+                  <div class="card-body text-dark">
+                    In general, one wall in a room takes about 2-5 full days of
+                    painting, depending on the complexity of the design. A mural
+                    of 20 sq ft can usually be completed in just one day.
+                  </div>
+                </div>
+              </div>
+              <!-- CARD TWO -->
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0 my-1">
+                    <a
+                      href="#collapseTwo"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="faq-question-text"
+                    >
+                      <i class="fas fa-plus blue-text mx-2"></i>
+                      How much does a mural cost?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse">
+                  <div class="card-body text-dark">
+                    Each mural is a custom piece, and is therefore unique. We
+                    will submit a quote for each client after our initial
+                    consultation.
+                  </div>
+                </div>
+              </div>
+              <!-- CARD THREE -->
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0 my-1">
+                    <a
+                      href="#collapseThree"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="faq-question-text"
+                    >
+                      <i class="fas fa-plus blue-text mx-2"></i>
+                      Do you paint the base coat?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse">
+                  <div class="card-body text-dark">
+                    Yes! While we do request our clients provide clean walls
+                    free of personal items or wall decoration, painting the base
+                    coat is included in our services.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="accordion">
+              <!-- CARD FOUR -->
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0 my-1">
+                    <a
+                      href="#collapseFour"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="faq-question-text"
+                    >
+                      <i class="fas fa-plus blue-text mx-2"></i>
+                      What paint do you use?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse">
+                  <div class="card-body text-dark">
+                    We use Benjamin Moore in eggshell finish.
+                  </div>
+                </div>
+              </div>
+              <!-- CARD FIVE -->
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0 my-1">
+                    <a
+                      href="#collapseFive"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="faq-question-text"
+                    >
+                      <i class="fas fa-plus blue-text mx-2"></i>
+                      I have my own design, can you paint it for me?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseFive" class="collapse">
+                  <div class="card-body text-dark">
+                    In most cases, yes! While the finished mural will have our
+                    own style, we can usually recreate a design faithfully.
+                  </div>
+                </div>
+              </div>
+              <!-- CARD SIX -->
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0 my-1">
+                    <a
+                      href="#collapseSix"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="faq-question-text"
+                    >
+                      <i class="fas fa-plus blue-text mx-2"></i>
+                      How do I clean a finished mural?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseSix" class="collapse">
+                  <div class="card-body text-dark">
+                    We use a mess-friendly eggshell interior latex paints, which
+                    means that marks or dirt can usually be washed off with
+                    gentle non-abrasive cleanser.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="text-center p-4 blue-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="text-white">
+              Copyright &copy; <span id="year"></span> Mountain Murals
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/91ef82adcf.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // GET CURRENT YEAR FOR COPYRIGHT
+      $('#year').text(new Date().getFullYear());
+    </script>
+  </body>
+</html>
