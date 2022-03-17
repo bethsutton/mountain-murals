@@ -134,3 +134,16 @@ body {
   text-decoration: none;
   color: #28a745;
 }
+
+/* CONTACT PAGE */
+#contact-heading {
+  position: relative;
+  min-height: 350px;
+  background: url('./images/fishing-golden.jpeg');
+  background-attachment: fixed;
+  background-position: center -300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #ffffff;
+}
